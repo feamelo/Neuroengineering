@@ -64,3 +64,6 @@ Nesse conjunto de experimentos, cujos dados foram fornecidos pela Prof. Qin Zhan
 Primeiramente é aplicado um filtro FIR causal com banda de 700 a 3000 Hz e janela de Hamming. Após a filtragem dos dois sinais disponíveis (emgGS, emgTA), é feita uma média simples entre eles e o sinal final é normalizado. Por fim, o torque desejado é relacionado com o sinal de emg através de uma regressão com um polinômio de grau 2. O resultado pode ser visto na figura abaixo:
 
 ![5_results](images/5_results.png?raw=true)
+
+Para visualizar os resultados, rodar o script "main.m" de uma das pastas descritas acima.
+Para inserir novos dados, alterar o conteúdo da pasta "data" de cada pasta (com exceção da simulação do neurônio LIF, que não possui arquivo de dados de entrada, neste caso, pode-se alterar a corrente de entrada do neurônio no próprio código da main)
