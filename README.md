@@ -43,7 +43,7 @@ Para distinguir os sinais epiléticos foi utilizado o valor RMS da faixa de freq
 
 Sinais neurais adquiridos do cérebro podem ser utilizados para se estimar comandos de direção de movimento em Interfaces Cérebro-Máquina. Os dados utilizados nesse exercício referem-se a experimentos em que sinais referentes à atividade de neurônios individuais de primatas não-humanos foram gravados enquanto o indivíduo realizava tarefas de posicionamento de cursor em plano XY.
 
-O algoritmo utilizado foi baseado no filtro de Kalman básico citado no artigo “A High- Performance Neural Prosthesis Enabled by Control Algorithm Design”, que cria um sistema de predição da velocidade do cursor baseado no Firing rate, sendo um método usual para a decodificação neural. O filtro de Kalman modela o sistema como uma relação dinâmica linear entre o estado cinemático do cursor e as observações neurais, de acordo com a equação 1:
+O algoritmo utilizado foi baseado no filtro de Kalman básico citado no artigo “A High- Performance Neural Prosthesis Enabled by Control Algorithm Design”, que cria um sistema de predição da velocidade do cursor baseado no Firing rate, sendo um método usual para a decodificação neural. O filtro de Kalman modela o sistema como uma relação dinâmica linear entre o estado cinemático do cursor e as observações neurais, de acordo com a equação abaixo:
 
 ![eq2](images/eq2.png?raw=true)
 
