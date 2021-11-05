@@ -1,6 +1,5 @@
 # Neuroengineering
 Resolução da lista de exercícios da disciplina Neuroengenharia da Universidade de Brasília sob a orientação do professor Antônio Padilha.
-[Este projeto foi desenvolvido em outra plataforma de controle de versionamento e exportada para o GitHub após o término da disciplina]
 
 ## 1. Detecção e classificação de spikes (spike sorting)
 
